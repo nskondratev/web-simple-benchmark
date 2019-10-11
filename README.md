@@ -1,1 +1,1 @@
-# web-simple-benchmark
+# Simple benchmark of web servers

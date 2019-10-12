@@ -13,7 +13,7 @@ fastify.get('/hash/sha256', (request, reply) => {
 })
 
 // Run the server!
-fastify.listen(port, (err, address) => {
+fastify.listen(port, '0.0.0.0', (err, address) => {
     if (err) throw err
     console.log(`fastify server listening on ${address}`)
 })

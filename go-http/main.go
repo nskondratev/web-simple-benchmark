@@ -35,5 +35,7 @@ func main() {
 	http.HandleFunc("/json", jsonHandler)
 	http.HandleFunc("/hash/sha256", sha256Handler)
 
+	fmt.Println("Starting server at: " + addr)
+
 	http.ListenAndServe(addr, nil)
 }
